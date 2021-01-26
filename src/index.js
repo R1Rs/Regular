@@ -1,4 +1,4 @@
-import personage from './js/Personage';
-import functionForPersonage from './js/functionForPers';
+import Validator from './js/Validator';
 
-functionForPersonage(personage, ['name', 'level']);
+const name1 = new Validator();
+name1.validateUsername();
